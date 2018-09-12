@@ -13,6 +13,7 @@
 		26A0CCAD20E730950033093D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A0CCAC20E730950033093D /* Assets.xcassets */; };
 		26A0CCB020E730950033093D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0CCAE20E730950033093D /* LaunchScreen.storyboard */; };
 		26A0CCB320E730960033093D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0CCB220E730960033093D /* main.m */; };
+		26A0CCBB20E756F20033093D /* PickTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0CCBA20E756F20033093D /* PickTypeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		26A0CCAF20E730950033093D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26A0CCB120E730960033093D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26A0CCB220E730960033093D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26A0CCB920E756F20033093D /* PickTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickTypeView.h; sourceTree = "<group>"; };
+		26A0CCBA20E756F20033093D /* PickTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickTypeView.m; sourceTree = "<group>"; };
+		26A0CCBC20E760F20033093D /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 				26A0CCA420E730950033093D /* AppDelegate.m */,
 				26A0CCA620E730950033093D /* ViewController.h */,
 				26A0CCA720E730950033093D /* ViewController.m */,
+				26A0CCB920E756F20033093D /* PickTypeView.h */,
+				26A0CCBA20E756F20033093D /* PickTypeView.m */,
+				26A0CCBC20E760F20033093D /* UtilsMacros.h */,
 				26A0CCA920E730950033093D /* Main.storyboard */,
 				26A0CCAC20E730950033093D /* Assets.xcassets */,
 				26A0CCAE20E730950033093D /* LaunchScreen.storyboard */,
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A0CCA820E730950033093D /* ViewController.m in Sources */,
+				26A0CCBB20E756F20033093D /* PickTypeView.m in Sources */,
 				26A0CCB320E730960033093D /* main.m in Sources */,
 				26A0CCA520E730950033093D /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T7M3A3UNV;
 				INFOPLIST_FILE = LuckRound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lvzhongfabao.LuckRound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T7M3A3UNV;
 				INFOPLIST_FILE = LuckRound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lvzhongfabao.LuckRound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
